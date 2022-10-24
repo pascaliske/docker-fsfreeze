@@ -1,6 +1,6 @@
 {
   "name": "docker-fsfreeze",
-  "description": "",
+  "description": "Small Alpine based image for fsfreeze.",
   "version": "0.0.0",
   "license": "MIT",
   "author": {

@@ -1,6 +1,6 @@
 # project
 site_name: docker-fsfreeze
-site_description: TBD
+site_description: Small Alpine based image for fsfreeze.
 site_author: Pascal Iske
 site_url: https://pascaliske.github.io/docker-fsfreeze/
 
