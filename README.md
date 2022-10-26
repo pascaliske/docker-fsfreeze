@@ -47,6 +47,8 @@ docker run -it --rm pascaliske/fsfreeze fsfreeze --freeze /my/directory
 docker run -it --rm pascaliske/fsfreeze fsfreeze --unfreeze /my/directory
 ```
 
+> **Please note:** The container has a default command of `tail -f /dev/null` to keep it alive. This allows it to be used as a sidecar container inside a Kubernetes `Deployment` for freezing the filesystem during backups for example.
+
 ## License
 
 [MIT](LICENSE.md) – © 2022 [Pascal Iske](https://pascaliske.dev)
