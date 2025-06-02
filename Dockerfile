@@ -1,5 +1,5 @@
 # final image
-FROM alpine:3.21
+FROM alpine:3.22
 LABEL maintainer="info@pascaliske.dev"
 
 # install dependencies
